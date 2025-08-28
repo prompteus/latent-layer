@@ -6,6 +6,9 @@
     </mask>
   </defs>
   
-  <path d="M 20 35 L 20 65 L 80 35 L 80 65 Z" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" mask="url(#cut)"/>
-  <path d="M 25 37.5 75 62.5 " stroke="currentColor" stroke-width="8"/>
+  <g stroke="currentColor" stroke-width="8" style="filter: contrast(1000%)">
+    <path d="M 20 35 L 20 65 L 80 35 L 80 65 Z" stroke-linecap="round" stroke-linejoin="round" fill="none" mask="url(#cut)"/>
+    <path d="M 25 37.5 75 62.5 "/>
+  </g>
+  
 </svg>
